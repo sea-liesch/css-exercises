@@ -10,28 +10,26 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
-  display: flex;
-  justify-content: center;
 }
 
-.text {
-  color: rgb(8, 8, 185);
+
+.floral  {
   display: flex;
-  flex-direction: row;
   justify-content: center;
-  flex-wrap: wrap;
+  gap: 25px;
 
 }
-
 .plants {
   display: flex;
-  justify-content: center;
-  color:red;
-  vertical-align: top;
+  
   display: inline-block;
+  vertical-align: top;
   font-size: smaller;
-  width: 200px;
-  height: 200px;
+  width: 160px;
+  height: 160px;
+  gap: 5px;
+  text-align: justify;
+  text-align-last: center;
 
 }
 /* do not edit this footer */
