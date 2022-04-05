@@ -12,6 +12,26 @@ img {
   font-weight: 900;
 }
 
+
+.floral  {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+
+}
+.plants {
+  display: flex;
+  
+  display: inline-block;
+  vertical-align: top;
+  font-size: smaller;
+  width: 160px;
+  height: 160px;
+  gap: 5px;
+  text-align: justify;
+  text-align-last: center;
+
+}
 /* do not edit this footer */
 .footer {
   position: fixed;

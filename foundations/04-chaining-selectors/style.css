@@ -1,0 +1,14 @@
+body{
+    width: 300px;
+    height: fit-auto;
+}
+.original-proportioned
+{
+    width: 200px;
+    height: auto;
+}
+.original-distorted
+{
+    width: 200px;
+    height: 400px;
+}
