@@ -9,7 +9,7 @@ body {
   margin: 0;
   background: #aaa;
   color: #333;
-  /* I'll give you this one for free lol */
+  /* I'll give you this one for free */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -29,10 +29,10 @@ body {
   background: lavender;
   width: 42px;
   height: 42px;
+  border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 50%;
 }
 
 .close-button {
@@ -64,14 +64,33 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+<<<<<<< HEAD:flex/05-flex-modal/xpsstyle.html
 .header {
   font-weight:bolder;
+=======
+
+/* SOLUTION: */
+
+.modal {
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+}
+
+.icon {
+  /* this keeps the icon from getting smashed by the text */
+  flex-shrink: 0;
+}
+
+.header {
+>>>>>>> fbf5bcf8786026b241e743fda545ed21c9be1d42:flex/05-flex-modal/mystyle.css
   display: flex;
   align-items: center;
   justify-content: space-between;
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 8px;
+<<<<<<< HEAD:flex/05-flex-modal/xpsstyle.html
 
 }
 .modal {
@@ -90,3 +109,10 @@ button.cancel {
 margin-bottom: 16px;
 
 }
+=======
+}
+
+.text {
+  margin-bottom: 16px;
+}
+>>>>>>> fbf5bcf8786026b241e743fda545ed21c9be1d42:flex/05-flex-modal/mystyle.css
