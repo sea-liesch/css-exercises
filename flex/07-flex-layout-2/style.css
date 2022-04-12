@@ -2,68 +2,55 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   margin: 0;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
 }
 
 .header {
   height: 72px;
   background: darkmagenta;
   color: white;
-  display: flex;
-  align-items: center;
-  padding: 0 16px;
-  font-size: 32px;
-  font-weight: 900;
 }
 
 .footer {
   height: 72px;
   background: #eee;
   color: darkmagenta;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .sidebar {
   width: 300px;
   background: royalblue;
-  flex-shrink: 0;
-  padding: 15px;
-}
+  }
 
-.card {
+.box {
+  display: inline-flex;
+  flex-wrap: wrap;
   border: 1px solid #eee;
+  border-color: red;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
   padding: 16px;
-  margin: 16px;
-  width: 300px;
+  margin: 100px;
+  width: 100px;
 }
-.ul {
-  list-style-type: none;
+.container {
+  display: flex;
+  flex: 1;
+}
+
+.card {
+  display: inline-flex;
+  flex:1;
   margin: 0;
   padding: 0;
-
-}
-
-.li {
-  margin-bottom: 16px;
-
-}
-
-.container {
-display: flex;
-flex: 1;
-gap: 20px;
-flex-wrap: wrap;
-
-
+  border: 1px solid #eee;
+  border-color: green;
+  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+  border-radius: 4px;
 
 }
 
 a {
+  list-style-type: none;
   color: white;
   text-decoration: none;
   font-size: 24px;
